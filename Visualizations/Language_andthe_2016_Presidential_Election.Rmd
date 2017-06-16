@@ -9,6 +9,6 @@ output: md_document
 
 Group Project visualizing language and the 2016 Presidential Election.
 
-Contributers inculde: Mike Jaron, Jack Holder, and Sam Gass.
+Contributers inculde: Brandon Wolff, Mike Jaron, Jack Holder, and Sam Gass.
 
 Link: [Project](https://thebestdatavisualizationproject.shinyapps.io/team_america/)
