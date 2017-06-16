@@ -13,7 +13,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r cars}
 #load and subset data
-Proj <- read.csv("Gaming_Jobs_TV_Broadband.csv")
+Proj <- read.csv("Gaming_Jobs_TV_Broadband.csv") # Data is from Pew Research Center (Internet and Technology)    
+                                                 # http://www.pewinternet.org/datasets/  
+                                                 # Titled : June 10 - July 12, 2015 - Gaming, Jobs and Broadband
 
 vars <- Proj[c("emplnw", "age", "educ2", "inc", "ï..psraid")]
 
