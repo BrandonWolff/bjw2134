@@ -2,7 +2,7 @@
 title: "TV_vs_INT"
 author: "Brandon Wolff"
 date: "June 15, 2017"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
