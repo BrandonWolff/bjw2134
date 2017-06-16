@@ -17,7 +17,7 @@ Proj <- read.csv("Gaming_Jobs_TV_Broadband.csv") # Data is from Pew Research Cen
                                                  # http://www.pewinternet.org/datasets/  
                                                  # Titled : June 10 - July 12, 2015 - Gaming, Jobs and Broadband
 
-vars <- Proj[c("emplnw", "age", "educ2", "inc", "ï..psraid")]
+vars <- Proj[c("emplnw", "age", "educ2", "inc", "Ã¯..psraid")]
 
 myvars <- names(Proj) %in% c("emplnw", "age", "educ2", "inc") 
 Proj <- Proj[!myvars]
@@ -56,7 +56,7 @@ Proj[,c("stud")] <- 3-Proj[,c("stud")]
 
 Proj[,c("intfreq")] <- -Proj[,c("intfreq")]
 
-Proj1 <- merge(Proj, vars, by = "ï..psraid")
+Proj1 <- merge(Proj, vars, by = "Ã¯..psraid")
 
 table(Proj1$race)
 
@@ -93,7 +93,7 @@ Proj1 <- within(Proj1, race <- relevel(race, ref = 6))
 table(Proj1$race)
 
 
-# midwest as ref. 
+# midwest as ref. group
 
 Proj1$cregion[Proj1$cregion == "1"] <- "Northeast"
 Proj1$cregion[Proj1$cregion == "2"] <- "Midwest"
