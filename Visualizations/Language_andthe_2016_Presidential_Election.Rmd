@@ -1,0 +1,14 @@
+---
+title: "Language and the 2016 Presidential Election"
+author: "Brandon Wolff"
+date: "June 16, 2017"
+output: md_document
+---
+
+# Language and the 2016 Presidential Election
+
+Group Project visualizing language and the 2016 Presidential Election.
+
+Contributers inculde: Mike Jaron, Jack Holder, and Sam Gass.
+
+Link: [Project](https://thebestdatavisualizationproject.shinyapps.io/team_america/)
